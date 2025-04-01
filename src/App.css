@@ -1,0 +1,26 @@
+.App {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #fff0f5, #c6e2fa);
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  animation: floatAnimation 1s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
